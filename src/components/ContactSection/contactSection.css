@@ -1,0 +1,44 @@
+.contact {
+	background-color: #cec4bc;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 314px;
+	padding: 100px 136px;
+	box-sizing: border-box;
+}
+
+.contact .text_wrapper {
+	max-width: 570px;
+}
+
+.contact .text_wrapper .title {
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 2px;
+	color: #645c55;
+}
+
+.contact .text_wrapper .subtitle {
+	font-size: 40px;
+	line-height: 42px;
+	color: #1b1a1a;
+}
+
+.contact .link {
+	display: block;
+	margin-right: 20px;
+	width: 121px;
+	height: 46px;
+	cursor: pointer;
+	padding: 10px 0;
+	box-sizing: border-box;
+	text-align: center;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.4px;
+	color: #1b1a1a;
+}
+.contact .link:hover {
+	text-decoration: underline;
+}

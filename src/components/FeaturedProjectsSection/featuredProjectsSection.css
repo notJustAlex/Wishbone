@@ -1,0 +1,112 @@
+.fuatured_projects {
+	height: 100vh;
+	background-color: #f7f7f7;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.fuatured_projects_wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.fuatured_projects .title {
+	font-size: 39px;
+	line-height: 42px;
+	color: #1b1a1a;
+}
+
+.fuatured_projects .descr {
+	margin-top: 15px;
+	width: 580px;
+	font-size: 24px;
+	line-height: 30px;
+	color: #645c55;
+}
+
+.fuatured_projects .pictures_wrapper {
+	display: flex;
+	justify-content: center;
+}
+
+.fuatured_projects .pictures_wrapper .picture {
+	width: 379px;
+	height: 460px;
+	margin: 0 8px;
+	position: relative;
+	margin-top: 40px;
+}
+.fuatured_projects .pictures_wrapper .picture:first-child {
+	margin-left: 0;
+}
+.fuatured_projects .pictures_wrapper .picture:last-child {
+	margin-right: 0;
+}
+.fuatured_projects .pictures_wrapper .picture:hover button,
+.fuatured_projects .pictures_wrapper .picture:hover .text_wrapper {
+	opacity: 1;
+}
+
+.fuatured_projects .pictures_wrapper .picture img {
+	width: 100%;
+	height: 100%;
+}
+
+.fuatured_projects .pictures_wrapper .picture .text_wrapper {
+	position: absolute;
+	top: 40px;
+	left: 40px;
+	opacity: 0;
+	transition: opacity 0.3s ease-in-out;
+}
+
+.fuatured_projects .pictures_wrapper .picture .title {
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 2px;
+	color: #645c55;
+}
+
+.fuatured_projects .pictures_wrapper .picture .sub_title {
+	font-size: 23px;
+	line-height: 30px;
+	color: #403e3b;
+}
+
+.fuatured_projects .pictures_wrapper .picture button {
+	position: absolute;
+	bottom: 40px;
+	left: 45px;
+	background-color: #1b1a1a;
+	color: #ffffff;
+	border-radius: 14px;
+	width: 133px;
+	height: 46px;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.4px;
+	cursor: pointer;
+	font-family: "Poppins";
+	border: none;
+	opacity: 0;
+	transition: opacity 0.3s ease-in-out;
+}
+
+.fuatured_projects .link {
+	display: block;
+	margin: 0 auto;
+	margin-top: 40px;
+	width: 180px;
+	height: 46px;
+	cursor: pointer;
+	text-align: center;
+	padding: 10px 0;
+	box-sizing: border-box;
+	font-size: 16px;
+	line-height: 24px;
+	color: #1b1a1a;
+}
+.fuatured_projects .link:hover {
+	text-decoration: underline;
+}

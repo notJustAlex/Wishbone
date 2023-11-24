@@ -1,0 +1,78 @@
+.team {
+	background-color: #fff;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.team .team_wrapper {
+	max-width: 1200px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.team .team_wrapper .text_wrapper {
+	max-width: 360px;
+	margin-right: 36px;
+}
+
+.team .team_wrapper .text_wrapper .title {
+	font-size: 32px;
+	line-height: 38px;
+	color: #403e3b;
+}
+
+.team .team_wrapper .text_wrapper .descr {
+	margin-top: 14px;
+	font-size: 15px;
+	line-height: 24px;
+	color: #645c55;
+}
+
+.team .team_wrapper .text_wrapper .link {
+	margin-top: 30px;
+	display: block;
+	width: 121px;
+	height: 46px;
+	cursor: pointer;
+	padding: 10px 0;
+	box-sizing: border-box;
+	text-align: center;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.4px;
+	color: #1b1a1a;
+}
+.team .team_wrapper .text_wrapper .link:hover {
+	text-decoration: underline;
+}
+
+.team .team_wrapper .avatars_wrapper {
+	display: grid;
+	grid-template-columns: repeat(2, 280px);
+	grid-template-rows: repeat(3, 100px);
+	gap: 35px;
+}
+
+.team .team_wrapper .avatars_wrapper .avatar {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.team .team_wrapper .avatars_wrapper .avatar .text_wrapper {
+	margin: auto 0 auto 30px;
+}
+
+.team .team_wrapper .avatars_wrapper .avatar .text_wrapper .title {
+	font-size: 17px;
+	line-height: 26px;
+	color: #1b1a1a;
+}
+
+.team .team_wrapper .avatars_wrapper .avatar .text_wrapper .position {
+	font-size: 14px;
+	line-height: 14px;
+	color: #645c55;
+}

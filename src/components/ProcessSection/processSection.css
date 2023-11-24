@@ -1,0 +1,52 @@
+.process {
+	height: 381px;
+	margin: 100px 120px;
+}
+
+.process .descr {
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 2px;
+	color: #645c55;
+	text-align: center;
+}
+
+.process .title {
+	font-size: 39px;
+	line-height: 42px;
+	color: #1b1a1a;
+	text-align: center;
+	margin-top: 13px;
+}
+
+.process .circles_wrapper {
+	display: flex;
+	justify-content: center;
+}
+
+.process .circles_wrapper .single_circle_wrapper {
+	width: 295px;
+	text-align: center;
+	margin: 0 29px;
+	margin-top: 40px;
+}
+.process .circles_wrapper .single_circle_wrapper:first-child {
+	margin-left: 0;
+}
+.process .circles_wrapper .single_circle_wrapper:last-child {
+	margin-right: 0;
+}
+
+.process .circles_wrapper .single_circle_wrapper .title {
+	font-size: 18px;
+	line-height: 26px;
+	color: #403e3b;
+	text-align: center;
+}
+
+.process .circles_wrapper .single_circle_wrapper .descr {
+	text-align: center;
+	font-size: 15px;
+	line-height: 24px;
+	color: #645c55;
+}

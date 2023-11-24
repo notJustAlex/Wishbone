@@ -1,0 +1,45 @@
+.projects {
+	height: 100vh;
+	box-sizing: border-box;
+	background-color: #ece7e4;
+	display: flex;
+	justify-content: space-between;
+}
+
+.projects img {
+	height: 100%;
+	object-fit: fill;
+}
+
+.projects .text_wrapper {
+	max-width: 510px;
+	height: 100%;
+	margin: 77px 60px;
+	padding: 60px 40px 40px 40px;
+}
+
+.projects .text_wrapper .logo {
+	font-size: 14px;
+	line-height: 20px;
+	color: #645c55;
+}
+
+.projects .text_wrapper .title {
+	font-size: 64px;
+	line-height: 70.4px;
+}
+
+.projects .text_wrapper .descr {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.projects .text_wrapper .link {
+	display: block;
+	width: 100px;
+	text-decoration: none;
+	color: #1b1a1a;
+	padding: 10px 16px;
+	margin-top: 30px;
+	cursor: pointer;
+}
