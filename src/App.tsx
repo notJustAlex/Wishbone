@@ -1,26 +1,35 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import AboutSection from "./components/AboutSection/AboutSection";
+import ClientsSection from "./components/ClientsSection/ClientsSection";
+import ContactSection from "./components/ContactSection/ContactSection";
+import FeaturedProjectsSection from "./components/FeaturedProjectsSection/FeaturedProjectsSection";
+import Footer from "./components/Footer/Footer";
+import NavMenu from "./components/NavMenu/NavMenu";
+import NewsSectiont from "./components/NewsSection/NewsSection";
+import ProcessSection from "./components/ProcessSection/ProcessSection";
+import ProjectsSection from "./components/ProjectsSection/ProjectsSection";
+import TeamSection from "./components/TeamSection/TeamSection";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<>
+			<header>
+				<NavMenu />
+			</header>
+			<main>
+				<ProjectsSection />
+				<AboutSection />
+				<NewsSectiont />
+				<ProcessSection />
+				<ClientsSection />
+				<FeaturedProjectsSection />
+				<TeamSection />
+				<ContactSection />
+			</main>
+			<footer>
+				<Footer />
+			</footer>
+		</>
+	);
 }
 
 export default App;
