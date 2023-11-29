@@ -21,7 +21,7 @@ const ProjectsSection = () => {
 			</div>
 
 			<div className="img_wrapper">
-				<img src={ProjectsBg} alt="projects_bg" />
+				<img src={ProjectsBg} loading="lazy" alt="projects_bg" />
 			</div>
 		</div>
 	);

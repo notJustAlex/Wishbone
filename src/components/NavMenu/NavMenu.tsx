@@ -1,4 +1,4 @@
-import { Link } from "react-scroll";
+import { Link, animateScroll as scroll } from "react-scroll";
 import { useEffect, useState } from "react";
 
 import { ReactComponent as LogoIcon } from "../../assets/icons/logo.svg";
@@ -33,7 +33,7 @@ const NavMenu = () => {
 				className="nav_menu"
 				style={scrollPosition >= 75 ? navMenuStyle : undefined}
 			>
-				<div className="logo_wrapper">
+				<div className="logo_wrapper" onClick={() => scroll.scrollToTop()}>
 					<LogoIcon />
 				</div>
 
